@@ -10,7 +10,7 @@ genai.configure(api_key=secret_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-st.title("Echo-Bot")
+st.title("Echo-Bot-Demo")
 
 # Initialize chat history
 if "messages" not in st.session_state:
